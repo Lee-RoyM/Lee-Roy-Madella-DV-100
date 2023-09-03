@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+
+     <!--javascript-->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+      <script src="/js/index.js"></script>
+     
+      <!--Css-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     <link rel="stylesheet" href="/css/main.css">
+
+
+</head>
+<body>
+
+    <nav class="navbar" style="background-color: #6CC1CC;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+               
+                <h2 style="color:#DDE9ED;">Ocean Explore</h2>
+              </a>
+        
+          <div id="navbarSupportedContent">
+            <ul class="nav justify-content-end" >
+              <li class="nav-item">
+                <a class="nav-link active" style="color:#DDE9ED; " href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  style="color:#DDE9ED; font-weight: bold; text-decoration: underline;" aria-current="page" href="/pages/trips.html">Trips</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:#DDE9ED; " href="/pages/checkout.html">Checkout</a>
+              </li>
+              
+            </ul>
+          </div>
+          
+        </div>
+      </nav>
+
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... (your existing head content) ... -->
+</head>
+<body>
+    <!-- ... (your existing navbar and other content) ... -->
+
+    <!-- Two 50% width columns -->
+    <div class="container">
+        <div class="row">
+            <!-- First 50% width column -->
+            <div class="col-6">
+                <table id="checkoutTable">
+                    <thead>
+                        <tr>
+                          <th scope="col">Trip code</th>
+                          <th scope="col">Cruise name</th>
+                          <th scope="col">Price</th>
+                          <th scope="col">Remove</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                       <tr>
+                          <th scope="row">CAR123</th>
+                          <td>2</td>
+                          <td>R24000</td>
+                          <btn id="remove"> - </btn>
+                        </tr>
+                </table>
+            </div>
+
+            <!-- Second 50% width column -->
+            <div class="col-6 total">
+                <h1>Your Purchase Total:</h1>
+                <br>
+                <h1 id="purchaseTotal">R 0</h1>
+                <button type="button" class="btn" id="payNowButton">Pay Now</button>
+                <button type="button" class="remove-btn" id="removeAllButton">Remove All</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ... (rest of your HTML content) ... -->
+</body>
+</html>
+
+
+
+
+    
+</body>
+</html>

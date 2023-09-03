@@ -1,0 +1,51 @@
+.carousel-item {
+    position: relative;
+    height: 650px;
+}
+
+
+
+
+
+.card {
+    
+   
+    text-align: center;
+    border-radius: 150px 150px 12px 12px;
+    border: none;
+}
+
+.card-img-top {
+    border-radius:  50%;
+    width: 250px; /* Adjust the width */
+        height: 250px; /* Adjust the height to match the width for a perfect circle */
+        
+        object-fit: cover; /* Ensures the image fills the circle without distortion */
+    
+    margin: auto;
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1); 
+}
+
+.card-img-top.small {
+    height:200px;
+}
+
+.btn{
+    background-color: #95E6DD;
+   
+/* Add this CSS to your stylesheet */
+.rotating-element {
+    animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+}
+
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trips page </title>
+    
+    <!--javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+     <script src="/js/index.js"></script>
+    
+     <!--Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+    
+     <!--nav bar-->
+     <nav class="navbar" style="background-color: #6CC1CC;">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+             
+              <h2 style="color:#DDE9ED;">Ocean Explore</h2>
+            </a>
+      
+        <div id="navbarSupportedContent">
+          <ul class="nav justify-content-end" >
+            <li class="nav-item">
+              <a class="nav-link active" style="color:#DDE9ED; " href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  style="color:#DDE9ED; font-weight: bold; text-decoration: underline;" aria-current="page" href="/pages/trips.html">Trips</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color:#DDE9ED; " href="/pages/checkout.html">Checkout</a>
+            </li>
+            
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
+
+  <!--trip cards-->
+  <div class="container mt-5 pt-5">
+
+    <!-- Header -->
+    <h2>Upcoming Trips</h2>
+
+    <!-- Plants List Cards -->
+    <div class="row py-5 gy-3" id="tripsContainer">
+
+        <!-- Browse Card Template * Won't display by default * -->
+        <template id="tripCardTemplate">
+          <div class="col-4">
+
+            <!-- Card -->
+            <div class="card">
+                <img src="/assets/card 1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title" id="nameText">Caribbean Cruise</h4>
+                  <p class="card-text" id="priceText">R12000</p>
+                  <p class="card-text mt-4" id="destinationText">Caribbean Islands</p>
+                  <p class="card-text" id="durationText">7 days</p>
+                  <p class="card-text" id="dateOfDepartureText">2023-09-15</p>
+                  <p class="card-text" id="tripCodeText">CAR123</p>
+
+
+
+                  <a href="#" class="btn btn-light">Book Now</a>
+                </div>
+                
+              </div>
+          </div>
+        </template>
+
+    </div>
+</div>
+<br>
+
+<!--breather--------------->
+<div class="container">
+  <div class="row">
+    <div class="col-6"><!-- right side----->
+
+<img src="/assets/turtle.jpg" style="width: 100%; padding-top: 50px; " alt="...">
+
+
+    </div>
+
+
+    <div class="col-6" style="padding-top: 160px;"><!-- left side----->
+      <div class="breather-content">
+    
+        <br>
+        <p>Pre-book from our amazing selection of cruises. You can use our filters to find a cruise that matches your budget and time period </p>
+        <br>
+        <a href="#" class="btn btn-light">Filter now</a>
+    </div>
+    
+
+  </div>
+</div>
+
+<br>
+</body>
+</html>
